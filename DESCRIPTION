@@ -1,0 +1,27 @@
+Package: Saddlepoint
+Title: Saddlepoint
+Version: 0.0.1
+Authors@R: 
+    person(given = "Zachary",
+           family = "McCaw",
+           role = c("aut", "cre"),
+           email = "zmccaw@alumni.harvard.edu",
+           comment = c(ORCID = "0000-0002-2006-9828"))
+Description: Association score test with p-value calculation via the empirical saddle point approximation.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+  testthat (>= 3.0.0),
+  withr
+Config/testthat/edition: 3
+Imports:
+    Rcpp,
+    dplyr,
+    glue,
+    methods,
+    numDeriv
+LinkingTo: 
+    RcppArmadillo,
+    Rcpp
